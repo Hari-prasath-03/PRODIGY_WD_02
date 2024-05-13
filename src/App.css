@@ -67,11 +67,7 @@ body {
 @layer components {
     .btn {
         @apply
-        text-2xl
-        font-bold
-        rounded-[50%]
         m-1.5
-        text-white
     }
 }
 
