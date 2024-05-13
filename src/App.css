@@ -73,7 +73,7 @@ body {
 
 .shadow-black {
     border-radius: 10px;
-    gap: 5px;
+    row-gap: 0.8rem;
 }
 
 @media(max-width: 445px) {
@@ -81,10 +81,10 @@ body {
         width: 100svw;
         height: 100svh;
         border-radius: 0px;
-        gap: 10rem;
+        row-gap: 10rem;
     }
     .overflow-x-auto {
         height: 5rem;
-        margin-bottom: .8rem;
+        margin-bottom: 1rem;
     }
 }
