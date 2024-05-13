@@ -84,7 +84,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-y-3 bg-white py-5 px-10 min-w-80 shadow-lg shadow-black"> {/* Page container */}
+    <div className="flex flex-col items-center gap-y-5 bg-white py-5 px-10 min-w-80 shadow-lg shadow-black md:h-full"> {/* Page container */}
       <div className="w-full text-3xl font-bold text-[#383838] opacity-80 font-mono mb-4">
         Stopwatch
       </div> {/*Title*/}
