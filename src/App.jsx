@@ -84,7 +84,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-y-3 bg-white py-5 px-10 min-w-80 shadow-lg shadow-black md:gap-y-12"> {/* Page container */}
+    <div className="flex flex-col items-center gap-y-3 bg-white py-5 px-10 min-w-80 shadow-lg shadow-black"> {/* Page container */}
       <div className="w-full text-3xl font-bold text-[#383838] opacity-80 font-mono mb-4">
         Stopwatch
       </div> {/*Title*/}
@@ -96,7 +96,7 @@ function App() {
           {blink && formatTime()}
         </div> {/* Display Border end*/}
       </div> {/* Display end*/}
-      <div className="flex flex-col h-32 overflow-x-auto scroll-x md:h-40 md:gap-x-[5px]"> {/*flag timing*/}
+      <div className="flex flex-col h-32 overflow-x-auto scroll-x"> {/*flag timing*/}
         {flagArray &&
           flagArray.map((flagTime, i) => (
             <>
