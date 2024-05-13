@@ -102,7 +102,7 @@ function App() {
             <>
               <span
                 key={i}
-                className="text-2xl font-bold tracking-wide opacity-75 font-mono"
+                className="text-2xl font-bold tracking-wide opacity-75 my-1.5"
               >
                 <span className="opacity-75">
                   {flagTime.id}
