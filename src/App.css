@@ -81,10 +81,10 @@ body {
         width: 100svw;
         height: 100svh;
         border-radius: 0px;
-        gap: 35px;
+        gap: 100px;
     }
     .overflow-x-auto {
-        height: 150px;
-        margin-bottom: 5px;
+        height: 250px;
+        margin-bottom: 10px;
     }
 }
