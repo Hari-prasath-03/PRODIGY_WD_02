@@ -81,6 +81,9 @@ body {
         width: 100svw;
         height: 100svh;
         border-radius: 0px;
-        row-gap: 3rem;
+        row-gap: 3.5rem;
+    }
+    body {
+        background-color: #fff;
     }
 }
