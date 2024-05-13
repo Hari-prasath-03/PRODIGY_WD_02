@@ -84,7 +84,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-y-8 bg-white py-5 px-10 min-w-80 shadow-lg shadow-black md:h-full"> {/* Page container */}
+    <div className="flex flex-col items-center gap-y-11 bg-white py-5 px-10 min-w-80 shadow-lg shadow-black md:h-full"> {/* Page container */}
       <div className="w-full text-3xl font-bold text-[#383838] opacity-80 font-mono mb-4">
         Stopwatch
       </div> {/*Title*/}
@@ -92,7 +92,7 @@ function App() {
         onClick={handleDisplay}
         className="flex flex-col items-center justify-center bg-white border-[5px] border-[hsl(0,0%,75%)] rounded-[50%] p-6"
       >
-        <div className="flex items-center justify-center font-mono text-[2.8rem] font-black text-[hsl(0,0%,25%)] h-[160px] w-[165px]">
+        <div className="flex items-center justify-center font-mono text-[2.8rem] px-2 font-black text-[hsl(0,0%,25%)] h-[160px] w-[165px]">
           {blink && formatTime()}
         </div> {/* Display Border end*/}
       </div> {/* Display end*/}
